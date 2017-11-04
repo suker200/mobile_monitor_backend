@@ -2,7 +2,7 @@
 
 # Feature
 - Support aggreate all information running as cron
-- Response mobile monitor app request requies
+- Response mobile monitor app queries
 - Support Prometheus queries:
 	- CPU Usage
 	- Load Average
