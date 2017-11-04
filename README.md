@@ -1,7 +1,7 @@
 # Mobile Monitor Backend API
 
 # Diagram flow
-![alt text](https://raw.githubusercontent.com/suker200/kube_waf/master/mobile_app_diagram.png)
+![alt text](https://raw.githubusercontent.com/suker200/mobile_monitor_backend/master/mobile_app_diagram.png)
 
 # Feature
 - Authen via JWT, support SSO
