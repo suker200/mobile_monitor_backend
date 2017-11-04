@@ -1,0 +1,40 @@
+hash: 46eb26cae3a7f18a438a2f35ca114a43f3f7d70eea103bbc7dc466a5082fadb9
+updated: 2017-10-24T17:32:17.129799102+07:00
+imports:
+- name: github.com/appleboy/gin-jwt
+  version: 4ef6a7a1574ad9f81f6ba45c4b74945f62e39a21
+- name: github.com/gin-contrib/sse
+  version: 22d885f9ecc78bf4ee5d72b937e4bbcdc58e8cae
+- name: github.com/gin-gonic/gin
+  version: dfb68ce0852d3fe600148f486f67d2327146dfea
+  subpackages:
+  - binding
+  - json
+  - render
+- name: github.com/go-fsnotify/fsnotify
+  version: 4da3e2cfbabc9f751898f250b49f2439785783a1
+- name: github.com/golang/protobuf
+  version: 4bd1920723d7b7c925de087aa32e2187708897f7
+  subpackages:
+  - proto
+- name: github.com/json-iterator/go
+  version: 887789156aeca0b292a5080b24e650d856c28933
+- name: github.com/mattn/go-isatty
+  version: fc9e8d8ef48496124e79ae0df75490096eccf6fe
+- name: github.com/robfig/cron
+  version: 736158dc09e10f1911ca3a1e1b01f11b566ce5db
+- name: github.com/ugorji/go
+  version: ded73eae5db7e7a0ef6f55aace87a2873c5d2b74
+  subpackages:
+  - codec
+- name: golang.org/x/sys
+  version: 8f0908ab3b2457e2e15403d3697c9ef5cb4b57a9
+  subpackages:
+  - unix
+- name: gopkg.in/dgrijalva/jwt-go.v3
+  version: dbeaa9332f19a944acb5736b4456cfcc02140e29
+- name: gopkg.in/go-playground/validator.v8
+  version: 5f1438d3fca68893a817e4a66806cea46a9e4ebf
+- name: gopkg.in/yaml.v2
+  version: 53feefa2559fb8dfa8d81baad31be332c97d6c77
+testImports: []

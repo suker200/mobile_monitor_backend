@@ -1,0 +1,8 @@
+package: monitor_app 
+import:
+- package: github.com/gin-gonic/gin
+  version: master
+- package: "github.com/go-fsnotify/fsnotify"
+  version: master
+- package: github.com/appleboy/gin-jwt
+  version: master

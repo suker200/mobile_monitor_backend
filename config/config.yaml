@@ -1,0 +1,60 @@
+---
+  general:
+    prometheus: http://127.0.0.1:9090
+  metrics:
+    disk_usage:
+      name: disk_usage
+      interval: 60
+      alias: High Disk Usage
+      project: suker200
+      label: ""
+      threshold: 70
+    mem_usage:
+      name: mem_usage
+      interval: 60
+      alias: High Mem Usage
+      project: suker200
+      label: ""
+      threshold: 70
+    server_state:
+      name: server_state
+      interval: 60
+      alias: Server Down
+      project: suker200
+      label: ""
+      threshold: 1
+    load_usage:
+      name: load_usage
+      interval: 60
+      alias: Server High Load
+      project: suker200
+      label: ""
+      threshold: 2
+    pod_restart:
+      name: pod_restart
+      interval: 60
+      alias: Pod Crash Restart
+      project: suker200
+      label: ""
+      threshold: 0
+    pod_pending:
+      name: pod_pending
+      interval: 60
+      alias: Pod Pending 
+      project: suker200
+      label: ""
+      threshold: 0
+    upstream_response_time:
+      name: upstream_response_time
+      interval: 60
+      alias: Upstream Response Time
+      project: suker200
+      label: ""
+      threshold: 1
+    prometheus_throtle:
+      name: prometheus_throtle
+      interval: 60
+      alias: Prometheus Storage Rush Mode
+      project: suker200
+      label: ""
+      threshold: 0.2
